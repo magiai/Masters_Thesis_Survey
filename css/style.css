@@ -1,11 +1,21 @@
 body {
   font-family: Helvetica;
 }
-.introContainer {
+
+.mainContainer {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
+}
+
+.subMainBox {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
     text-align: center;
+}
+.introContainer {
+    flex-direction: column;
 }
 div.image {
   width: 30vw;
@@ -23,10 +33,7 @@ div.image {
 .img3 {
   background-image: url("../images/3.jpg");
 }
-.question {
-  display: flex;
-  justify-content: center;
-}
+
 .likert {
   list-style-type: none;
   margin-top: 50px;
@@ -40,7 +47,7 @@ div.image {
 .likertElement:hover {
   font-weight: bold;
 }
-.nextQuestion {
+.nextQuestion, .theLastButton {
   margin-top: 30px;
 }
 button {
