@@ -1,0 +1,47 @@
+body {
+  font-family: Helvetica;
+}
+.image {
+  width: 30vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+}
+.img1 {
+  background-image: url("../images/a.jpg");
+}
+.question {
+  display: flex;
+  justify-content: center;
+}
+.likert {
+  list-style-type: none;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.likertElement {
+  margin-right: 25px;
+}
+.likertElement:hover {
+  font-weight: bold;
+}
+.nextQuestion {
+  margin-top: 30px;
+}
+button {
+  width: 100px;
+  height: 30px;
+}
+.nextQuestionBox {
+  display: flex;
+  justify-content: center;
+}
+.mainContainer > div:not(:first-child) {
+  display: none;
+}
+
+
+
+
