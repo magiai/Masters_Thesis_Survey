@@ -7,6 +7,9 @@ body {
     justify-content: center;
     flex-direction: column;
 }
+.mainContainer > div:not(:first-child) {
+    display: none;
+}
 
 .subMainBox {
     display: flex;
@@ -17,6 +20,11 @@ body {
 .introContainer {
     flex-direction: column;
 }
+.nextQuestionBox {
+    display: flex;
+    justify-content: center;
+}
+
 div.image {
   width: 30vw;
   height: 70vh;
@@ -54,13 +62,19 @@ button {
   width: 100px;
   height: 30px;
 }
-.nextQuestionBox {
-  display: flex;
-  justify-content: center;
+.noDeclaration {
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
-.mainContainer > div:not(:first-child) {
-  display: none;
+.kindOfPhotography {
+    width: 20vw;
+    height: 30vh;
 }
+.mainOccupationQuestion {
+    margin-top: 50px;
+}
+
+
 
 
 
