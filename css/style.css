@@ -25,12 +25,16 @@ body {
     justify-content: center;
 }
 
+.imagePosition {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
 div.image {
   width: 30vw;
   height: 70vh;
-  display: flex;
-  justify-content: center;
-  justify-items: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .img1 {
   background-image: url("../images/1.jpg");
@@ -42,14 +46,14 @@ div.image {
   background-image: url("../images/3.jpg");
 }
 
-.likert {
+.likert, .likertRI {
   list-style-type: none;
   margin-top: 50px;
   display: flex;
   justify-content: center;
 }
 
-.likertElement {
+.likertElement, .likertRIElement  {
   margin-right: 25px;
 }
 .likertElement:hover {
@@ -62,6 +66,28 @@ button {
   width: 100px;
   height: 30px;
 }
+/* RI---------------------------------------*/
+.instructionRIbox {
+    display: flex;
+    justify-content: center;
+    margin: 30px 100px 0px 100px;
+}
+
+.instructionRI {
+    line-height: 2;
+}
+.likertRI {
+    margin-top: 20px;
+}
+.likertRIElement {
+    font-size: 13px;
+}
+.RIquestionBox {
+    margin-top: 70px;
+}
+
+
+/* dane -----------------------------------*/
 .noDeclaration {
     margin-top: 30px;
     margin-bottom: 50px;
